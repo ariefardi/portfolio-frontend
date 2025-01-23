@@ -5,7 +5,6 @@ import {
   faReact,
   faDocker,
   faStudiovinari,
-  faAudible,
 } from "@fortawesome/free-brands-svg-icons";
 import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
