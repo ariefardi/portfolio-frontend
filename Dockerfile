@@ -14,6 +14,6 @@ RUN npm install -g serve
 # Copy the build folder from the previous step
 COPY --from=build /app/build /app/build
 # Expose the port that `serve` will use
-EXPOSE $PORT
+EXPOSE 8080
 # Command to run the server
 CMD ["serve", "-s", "build", "-l", "$PORT"]
