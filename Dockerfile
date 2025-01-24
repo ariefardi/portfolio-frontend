@@ -18,7 +18,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /app/build /usr/share/nginx/html
 
 # Expose the default Nginx port
-EXPOSE 9012
+EXPOSE 8080
 
 # Run Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
