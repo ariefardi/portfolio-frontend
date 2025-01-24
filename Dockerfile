@@ -16,4 +16,4 @@ COPY --from=build /app/build /app/build
 # Expose the port that `serve` will use
 EXPOSE 8080
 # Command to run the server
-CMD ["serve", "-s", "build", "-l", "$PORT"]
+CMD ["serve", "-s", "build", "-l", "8080"]
